@@ -1,0 +1,5 @@
+dias = int(input("Dias alugados? "))
+km = float(input("Quantos km? "))
+total = (dias * 60) + (km * 0.15)
+total = round(total, 2)
+print(f"O total a pagar é de R${total}.")
