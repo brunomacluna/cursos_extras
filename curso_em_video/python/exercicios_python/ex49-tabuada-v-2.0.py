@@ -7,6 +7,6 @@ print(11 * "=")
 for c in range(0, 10):
     t = n * c
     print(f"{n} x {c} = {t}")
-    sleep(1)
+    sleep(0.5)
     print(11 * "=")
     

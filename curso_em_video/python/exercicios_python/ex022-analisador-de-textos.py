@@ -1,6 +1,6 @@
-nome = str(input("Digite seu nome completo: ")).strip()
-print("Veja seu nome em letras maiúsculas: ", nome.upper())
-print("Veja seu nome em letras minúsculas: ",nome.lower())
+nome = str(input("Digite seu nome completo: ")).strip() # strip() retira espaços e caracteres indesejados do começo e final de uma string
+print("Veja seu nome em letras maiúsculas: ", nome.upper()) # maiusculo
+print("Veja seu nome em letras minúsculas: ",nome.lower()) # minusculo
 nome_sem_espacos = nome.replace(" ", "") # ou => nome_sem_espacos = len(nome) - nome.count(" ")
 total_letras = len(nome_sem_espacos) # len conta os caracteres 
 print(f"Há um total de {total_letras} letras.")
