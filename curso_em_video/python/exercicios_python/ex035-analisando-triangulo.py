@@ -6,7 +6,9 @@ if a + b > c and a + c > b and b + c > a:
 else:
     print("Não se pode formar um triângulo.")
 
+
    
+
 
 
 
